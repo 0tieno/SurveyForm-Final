@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+
+  body {
+      width: 100%;
+      height: 100vh;
+      overflow-y: hidden;
+      margin: 0;
+      background-color: #1b1b32;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/pexels-alex-green-5699456.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: #f5f6f7;
+      font-family: Tahoma;
+    }
+
+    h1{
+      text-transform: uppercase;
+      word-spacing: 1.5rem;
+      letter-spacing: 1rem;
+      font-size: 3rem;
+    }
+
+    p{
+      font-size: 2rem;
+    }
+
+    h1, p {
+      margin: 1em auto;
+      text-align: center;
+      /* color:#000; */
+      color:#fff;
+      font-weight:300;
+
+    }
+  
+    .main-navbar{
+      margin-top: 2rem;
+      padding-top: 0;
+    }
+  
+    .main-navbar ul{
+      text-align: center;
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      list-style: none;
+    }
+
+    .main-navbar ul li a{
+      font-size: 2rem;
+      /* color: rgb(255, 102, 0); */
+      color: #fff;
+      font-weight: 540;
+      letter-spacing: 0.2rem;
+    }
+
+    .main-navbar ul li a:visited{
+      color: #fff;
+    }
+
+    .main-navbar ul li a:hover,
+    .main-navbar ul li a:focus{
+      color: aliceblue;
+      background-color: #333;
+      text-decoration: none;
+    }
+  
+    .registerr {
+      /* text-decoration: none; */
+      font-size: 1.5rem;
+      display: flex;
+      justify-content: center;
+      /* color: #000; */
+      color: #fff;
+    }
+
+    .registerr a{
+      /* color: #333; */
+      color: #fff;
+    }
+
+     .registerr a:hover,
+     .registerr a:focus{
+      color: black;
+      background-color: whitesmoke;
+      text-decoration: none;
+    }
+
+    .footer-paragraph{
+      font-size: 1.5rem;
+    }
